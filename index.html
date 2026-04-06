@@ -3,23 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>FitFluxStudio — Social Media Management</title>
+<title>FitFluxStudio — Social Media Management Offer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --lime:#CCFF00;
-  --dg:#2D6A0F;
-  --deep:#0D1F00;
+  --lime:#B5F03C;
+  --dg:#3A7D1E;
+  --deep:#122409;
   --white:#fff;
-  --off:#F4F8EE;
-  --muted:#6B7A5A;
-  --border:#DDE8CC;
-  --card:#101C00;
-  --cardtext:#D4E8B0;
-  --cardmuted:#9BAA88;
-  --cardborder:#1A2C00;
-  --amber:#E09B20;
+  --off:#F5F8EF;
+  --muted:#7A8B68;
+  --border:#D4E4BB;
+  --card:#172F0A;
+  --cardtext:#C8DFA0;
+  --cardmuted:#8FA07A;
+  --cardborder:#1E3A0D;
+  --amber:#D4901C;
   --teal:#4CAF82;
   --blue:#85B7EB;
   --wrap:1200px;
@@ -43,14 +43,14 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
 .topnav-logo-text span{color:var(--lime)}
 .topnav-tabs{display:flex;gap:4px}
 .topnav-tab{background:transparent;border:none;font-family:'DM Sans',sans-serif;font-size:12px;font-weight:700;letter-spacing:.06em;color:rgba(255,255,255,.4);padding:8px 16px;border-radius:6px;cursor:pointer;transition:all .2s}
-.topnav-tab.active{background:rgba(204,255,0,.12);color:var(--lime)}
-.topnav-cta{background:var(--lime);color:var(--deep);font-family:'DM Sans',sans-serif;font-size:11px;font-weight:800;padding:9px 20px;border:none;border-radius:6px;cursor:pointer;letter-spacing:.05em;white-space:nowrap}
+.topnav-tab.active{background:rgba(181,240,60,.15);color:#B5F03C}
+.topnav-cta{background:#C2F050;color:#0F2208;font-family:'DM Sans',sans-serif;font-size:11px;font-weight:800;padding:9px 20px;border:none;border-radius:6px;cursor:pointer;letter-spacing:.05em;white-space:nowrap}
 
 /* ── SECTION WRAPPER ── */
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--px)}
 
 /* ── DIVIDER ── */
-.divider{background:var(--lime);padding:11px var(--px)}
+.divider{background:#C2F050;padding:11px var(--px)}
 .divider-inner{max-width:var(--wrap);margin:0 auto;display:flex;align-items:center;gap:12px}
 .dl{font-family:'Bebas Neue',sans-serif;font-size:17px;letter-spacing:.12em;color:var(--deep);white-space:nowrap}
 .dr{flex:1;height:1px;background:rgba(13,31,0,.2)}
@@ -60,42 +60,42 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
 ══════════════════════════════ */
 
 /* ── HERO ── */
-.hero{background:var(--deep);padding:80px var(--px) 72px;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;top:-100px;right:5%;width:500px;height:500px;border-radius:50%;background:rgba(204,255,0,.05);pointer-events:none}
-.hero::after{content:'';position:absolute;bottom:-80px;left:8%;width:300px;height:300px;border-radius:50%;background:rgba(204,255,0,.03);pointer-events:none}
+.hero{background:#0F2208;padding:80px var(--px) 72px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-100px;right:5%;width:500px;height:500px;border-radius:50%;background:rgba(181,240,60,.05);pointer-events:none}
+.hero::after{content:'';position:absolute;bottom:-80px;left:8%;width:300px;height:300px;border-radius:50%;background:rgba(181,240,60,.03);pointer-events:none}
 .hero-inner{max-width:var(--wrap);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
-.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(204,255,0,.12);border:1px solid rgba(204,255,0,.3);border-radius:20px;padding:5px 14px;margin-bottom:20px}
+.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(181,240,60,.12);border:1px solid rgba(181,240,60,.3);border-radius:20px;padding:5px 14px;margin-bottom:20px}
 .hero-badge-dot{width:6px;height:6px;border-radius:50%;background:var(--lime);animation:pulse 2s infinite}
 .hero-badge-text{font-size:10px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--lime)}
-.hero-label{font-size:11px;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:rgba(204,255,0,.55);margin-bottom:14px}
+.hero-label{font-size:11px;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:rgba(181,240,60,.55);margin-bottom:14px}
 .hero-h1{font-family:'DM Sans',sans-serif;font-size:clamp(44px,5vw,72px);font-weight:300;line-height:.9;color:var(--white);margin-bottom:18px;letter-spacing:-.02em}
 .hero-h1 strong{font-weight:800;color:var(--lime);display:block}
 .hero-sub{font-size:15px;color:rgba(255,255,255,.55);line-height:1.75;margin-bottom:30px;max-width:440px}
 .hero-sub strong{color:rgba(255,255,255,.9)}
 .hero-btns{display:flex;gap:12px;flex-wrap:wrap}
-.hero-btn-primary{background:var(--lime);color:var(--deep);font-family:'DM Sans',sans-serif;font-size:13px;font-weight:800;padding:15px 32px;border:none;border-radius:8px;cursor:pointer;letter-spacing:.05em}
+.hero-btn-primary{background:#C2F050;color:#0F2208;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:800;padding:15px 32px;border:none;border-radius:8px;cursor:pointer;letter-spacing:.05em}
 .hero-btn-secondary{background:transparent;color:rgba(255,255,255,.5);font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;padding:15px 24px;border:1px solid rgba(255,255,255,.15);border-radius:8px;cursor:pointer}
 
 /* Hero right — stats panel */
-.hero-right{background:rgba(255,255,255,.04);border:1px solid rgba(204,255,0,.12);border-radius:16px;padding:28px}
-.hero-stats-label{font-size:9px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:rgba(204,255,0,.45);margin-bottom:18px}
+.hero-right{background:rgba(255,255,255,.04);border:1px solid rgba(181,240,60,.12);border-radius:16px;padding:28px}
+.hero-stats-label{font-size:9px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:rgba(181,240,60,.45);margin-bottom:18px}
 .hero-stat-row{display:flex;align-items:center;justify-content:space-between;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.06)}
 .hero-stat-row:last-child{border-bottom:none}
 .hero-stat-label{font-size:12px;color:rgba(255,255,255,.5)}
 .hero-stat-val{font-family:'Bebas Neue',sans-serif;font-size:26px;color:var(--lime);line-height:1}
-.hero-stat-unit{font-size:11px;color:rgba(204,255,0,.5);margin-left:3px}
+.hero-stat-unit{font-size:11px;color:rgba(181,240,60,.5);margin-left:3px}
 .hero-bar-row{display:flex;align-items:center;gap:10px;margin-top:16px}
 .hero-bar-label{font-size:10px;color:rgba(255,255,255,.4);width:80px;flex-shrink:0}
 .hero-bar-track{flex:1;height:4px;background:rgba(255,255,255,.08);border-radius:3px;overflow:hidden}
 .hero-bar-fill{height:100%;border-radius:3px;background:var(--lime)}
 
 /* ── TRUTHS ── */
-.truths{background:var(--deep);padding:56px var(--px);border-top:1px solid var(--cardborder)}
+.truths{background:#0F2208;padding:56px var(--px);border-top:1px solid var(--cardborder)}
 .truths-inner{max-width:var(--wrap);margin:0 auto}
-.truths-label{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(204,255,0,.45);margin-bottom:32px}
+.truths-label{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(181,240,60,.45);margin-bottom:32px}
 .truths-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px}
 .truth-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:24px}
-.truth-num{font-family:'Bebas Neue',sans-serif;font-size:48px;color:rgba(204,255,0,.12);line-height:1;margin-bottom:10px}
+.truth-num{font-family:'Bebas Neue',sans-serif;font-size:48px;color:rgba(181,240,60,.12);line-height:1;margin-bottom:10px}
 .truth-text{font-size:13px;color:var(--cardtext);line-height:1.7}
 .truth-text strong{color:var(--lime)}
 
@@ -135,12 +135,12 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
 .tier-header{padding:28px 24px 22px}
 .tier-header.presence{background:var(--off)}
 .tier-header.authority{background:var(--deep)}
-.tier-header.category{background:linear-gradient(135deg,#0D1F00 0%,#1A3A0A 100%)}
+.tier-header.category{background:linear-gradient(135deg,#182E0A 0%,#264A14 100%)}
 
 .tier-tag{display:inline-block;font-size:8px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:4px 12px;border-radius:10px;margin-bottom:12px}
 .tier-tag.presence{background:rgba(45,106,15,.12);color:var(--dg)}
-.tier-tag.authority{background:rgba(204,255,0,.15);color:var(--lime)}
-.tier-tag.category{background:var(--lime);color:var(--deep)}
+.tier-tag.authority{background:rgba(181,240,60,.15);color:var(--lime)}
+.tier-tag.category{background:#C2F050;color:#0F2208}
 
 .tier-name{font-family:'Bebas Neue',sans-serif;font-size:36px;letter-spacing:.06em;line-height:1;margin-bottom:6px}
 .tier-name.presence{color:var(--deep)}
@@ -150,7 +150,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
 .tier-hook{font-size:12px;line-height:1.55;font-style:italic;margin-bottom:18px}
 .tier-hook.presence{color:var(--muted)}
 .tier-hook.authority{color:rgba(255,255,255,.55)}
-.tier-hook.category{color:rgba(204,255,0,.65)}
+.tier-hook.category{color:rgba(181,240,60,.65)}
 
 .tier-price-row{display:flex;align-items:baseline;gap:4px}
 .tier-price{font-family:'Bebas Neue',sans-serif;font-size:52px;line-height:1}
@@ -160,7 +160,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
 .tier-price-per{font-size:13px;font-weight:500}
 .tier-price-per.presence{color:var(--muted)}
 .tier-price-per.authority{color:rgba(255,255,255,.45)}
-.tier-price-per.category{color:rgba(204,255,0,.55)}
+.tier-price-per.category{color:rgba(181,240,60,.55)}
 
 /* pill stats */
 .pill-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;padding:16px 24px;background:rgba(0,0,0,.03)}
@@ -176,13 +176,13 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
 /* tier body */
 .tier-body{padding:20px 24px 24px;flex:1;display:flex;flex-direction:column}
 .tier-body.light{background:var(--white)}
-.tier-body.dark{background:#111C00}
+.tier-body.dark{background:#1C3A0E}
 .tier-section-label{font-size:8px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin-bottom:10px;margin-top:4px}
 .tier-section-label.dm{color:var(--cardmuted)}
 .tier-row{display:flex;align-items:flex-start;gap:10px;margin-bottom:10px}
 .tier-check{width:18px;height:18px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;font-size:9px;font-weight:700}
 .tier-check.green{background:rgba(76,175,130,.15);color:#4CAF82}
-.tier-check.lime{background:rgba(204,255,0,.15);color:var(--lime)}
+.tier-check.lime{background:rgba(181,240,60,.15);color:var(--lime)}
 .tier-check.amber{background:rgba(224,155,32,.15);color:var(--amber)}
 .tier-check.dash{background:rgba(107,122,90,.08);color:rgba(107,122,90,.4)}
 .tier-item{font-size:12px;line-height:1.55;color:var(--deep)}
@@ -193,7 +193,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
 
 .tier-exclusive{display:flex;align-items:flex-start;gap:8px;margin-top:auto;padding:10px 12px;border-radius:8px}
 .tier-exclusive.lx{background:rgba(45,106,15,.07);margin-top:16px}
-.tier-exclusive.dx{background:rgba(204,255,0,.06);margin-top:16px}
+.tier-exclusive.dx{background:rgba(181,240,60,.06);margin-top:16px}
 .tier-exclusive.gx{background:rgba(224,155,32,.07);border:1px solid rgba(224,155,32,.2);margin-top:16px}
 .tier-excl-text{font-size:10px;color:var(--muted);line-height:1.5}
 .tier-excl-text strong{color:var(--deep)}
@@ -203,12 +203,12 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
 
 .tier-cta{width:100%;padding:14px;border:none;border-radius:8px;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:800;letter-spacing:.04em;cursor:pointer;margin-top:16px;transition:opacity .2s}
 .tier-cta:hover{opacity:.9}
-.tier-cta.presence{background:var(--deep);color:var(--lime)}
-.tier-cta.authority{background:var(--lime);color:var(--deep)}
-.tier-cta.category{background:var(--lime);color:var(--deep)}
+.tier-cta.presence{background:#1E3A0D;color:#B5F03C}
+.tier-cta.authority{background:#C2F050;color:#0F2208}
+.tier-cta.category{background:#C2F050;color:#0F2208}
 
 /* ── DASHBOARD ── */
-.dash-section{padding:72px var(--px);background:var(--deep)}
+.dash-section{padding:72px var(--px);background:#182E0A}
 .dash-inner{max-width:var(--wrap);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}
 .dash-left-h2{font-family:'Bebas Neue',sans-serif;font-size:clamp(36px,3.5vw,52px);color:var(--white);letter-spacing:.02em;line-height:1;margin-bottom:12px}
 .dash-left-h2 span{color:var(--lime)}
@@ -220,8 +220,8 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
 .dash-point-text{font-size:13px;color:rgba(255,255,255,.6);line-height:1.6}
 .dash-point-text strong{color:var(--white)}
 
-.dash-preview{background:rgba(255,255,255,.04);border:1px solid rgba(204,255,0,.15);border-radius:16px;padding:24px}
-.dash-preview-label{font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(204,255,0,.45);margin-bottom:18px}
+.dash-preview{background:rgba(255,255,255,.04);border:1px solid rgba(181,240,60,.15);border-radius:16px;padding:24px}
+.dash-preview-label{font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(181,240,60,.45);margin-bottom:18px}
 .dash-stats-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:18px}
 .dash-stat{background:var(--cardborder);border-radius:10px;padding:14px 10px;text-align:center}
 .dash-stat-num{font-family:'Bebas Neue',sans-serif;font-size:26px;color:var(--lime);line-height:1}
@@ -232,14 +232,14 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
 .dash-bar-fill{height:100%;border-radius:3px}
 .dash-bar-val{font-size:10px;color:var(--cardtext);width:32px;text-align:right;flex-shrink:0}
 .dash-tag-row{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
-.dash-tag{background:rgba(204,255,0,.08);border:1px solid rgba(204,255,0,.15);border-radius:6px;padding:5px 10px;font-size:9px;font-weight:700;color:rgba(204,255,0,.6);letter-spacing:.08em;text-transform:uppercase}
+.dash-tag{background:rgba(181,240,60,.08);border:1px solid rgba(181,240,60,.15);border-radius:6px;padding:5px 10px;font-size:9px;font-weight:700;color:rgba(181,240,60,.6);letter-spacing:.08em;text-transform:uppercase}
 
 /* ══════════════════════════════
    PAGE 2
 ══════════════════════════════ */
 
 /* ── FOR SECTION ── */
-.for-section{background:var(--deep);padding:72px var(--px)}
+.for-section{background:#182E0A;padding:72px var(--px)}
 .for-inner{max-width:var(--wrap);margin:0 auto}
 .for-h2{font-family:'Bebas Neue',sans-serif;font-size:clamp(36px,3.5vw,54px);color:var(--lime);letter-spacing:.04em;margin-bottom:8px;line-height:1}
 .for-sub{font-size:14px;color:var(--cardmuted);margin-bottom:32px;line-height:1.6;max-width:520px}
@@ -255,10 +255,10 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
 .journey-left-h2 em{color:var(--dg);font-style:normal}
 .journey-left-sub{font-size:13px;color:var(--muted);line-height:1.7}
 .journey-steps{position:relative;padding-left:36px}
-.journey-steps::before{content:'';position:absolute;left:14px;top:10px;bottom:10px;width:2px;background:linear-gradient(to bottom,var(--lime),var(--dg),rgba(45,106,15,.15))}
+.journey-steps::before{content:'';position:absolute;left:14px;top:10px;bottom:10px;width:2px;background:linear-gradient(to bottom,#B5F03C,#3A7D1E,rgba(58,125,30,.1))}
 .journey-step{position:relative;margin-bottom:36px}
 .journey-step:last-child{margin-bottom:0}
-.journey-dot{position:absolute;left:-29px;top:4px;width:16px;height:16px;border-radius:50%;border:2px solid var(--lime);background:var(--off);display:flex;align-items:center;justify-content:center}
+.journey-dot{position:absolute;left:-29px;top:4px;width:16px;height:16px;border-radius:50%;border:2px solid #B5F03C;background:var(--off);display:flex;align-items:center;justify-content:center}
 .journey-dot::after{content:'';width:6px;height:6px;border-radius:50%;background:var(--lime)}
 .journey-month{font-size:9px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--dg);margin-bottom:5px}
 .journey-title{font-size:18px;font-weight:700;color:var(--deep);margin-bottom:6px}
@@ -286,17 +286,17 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
 
 /* ── FINAL CTA ── */
 .final-cta{background:var(--deep);padding:80px var(--px);text-align:center;position:relative;overflow:hidden}
-.final-cta::before{content:'';position:absolute;top:-120px;left:50%;transform:translateX(-50%);width:600px;height:600px;border-radius:50%;background:rgba(204,255,0,.04);pointer-events:none}
+.final-cta::before{content:'';position:absolute;top:-120px;left:50%;transform:translateX(-50%);width:600px;height:600px;border-radius:50%;background:rgba(181,240,60,.04);pointer-events:none}
 .final-cta-inner{max-width:600px;margin:0 auto;position:relative;z-index:1}
-.final-eyebrow{font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:rgba(204,255,0,.45);margin-bottom:16px}
+.final-eyebrow{font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:rgba(181,240,60,.45);margin-bottom:16px}
 .final-h2{font-family:'Bebas Neue',sans-serif;font-size:clamp(44px,5vw,72px);color:var(--white);letter-spacing:.02em;line-height:.92;margin-bottom:10px}
 .final-h2 span{color:var(--lime)}
 .final-sub{font-size:14px;color:rgba(255,255,255,.45);line-height:1.75;margin-bottom:32px}
 .final-sub strong{color:rgba(255,255,255,.8)}
 .final-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:20px}
-.final-btn-primary{background:var(--lime);color:var(--deep);font-family:'DM Sans',sans-serif;font-size:14px;font-weight:800;padding:16px 40px;border:none;border-radius:8px;cursor:pointer;letter-spacing:.04em}
+.final-btn-primary{background:#C2F050;color:#0F2208;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:800;padding:16px 40px;border:none;border-radius:8px;cursor:pointer;letter-spacing:.04em}
 .final-btn-secondary{background:transparent;color:rgba(255,255,255,.4);font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;padding:16px 28px;border:1px solid rgba(255,255,255,.12);border-radius:8px;cursor:pointer}
-.urgency{font-size:11px;color:rgba(204,255,0,.45);line-height:1.6}
+.urgency{font-size:11px;color:rgba(181,240,60,.45);line-height:1.6}
 .urgency strong{color:var(--lime)}
 
 /* ── RESPONSIVE ── */
@@ -379,7 +379,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
           <div class="hero-bar-row">
             <div class="hero-bar-label">Engagement rate</div>
             <div class="hero-bar-track"><div class="hero-bar-fill" style="width:78%"></div></div>
-            <div style="font-size:10px;color:rgba(204,255,0,.6);width:32px;text-align:right">7.8%</div>
+            <div style="font-size:10px;color:rgba(181,240,60,.6);width:32px;text-align:right">7.8%</div>
           </div>
           <div class="hero-bar-row">
             <div class="hero-bar-label">Profile visits</div>
@@ -451,12 +451,12 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
       <!-- BILLING TOGGLE -->
       <div style="display:flex;justify-content:center;margin-bottom:40px">
         <div style="background:#F0F4E8;border:1px solid var(--border);border-radius:60px;padding:6px;display:inline-flex;gap:6px">
-          <button id="bill-monthly" onclick="setBilling('monthly')" style="background:var(--deep);color:var(--lime);border:none;border-radius:50px;padding:14px 32px;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:800;cursor:pointer;letter-spacing:.04em;transition:all .2s">Monthly</button>
+          <button id="bill-monthly" onclick="setBilling('monthly')" style="background:#1E3A0D;color:#B5F03C;border:none;border-radius:50px;padding:14px 32px;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:800;cursor:pointer;letter-spacing:.04em;transition:all .2s">Monthly</button>
           <button id="bill-2month" onclick="setBilling('2month')" style="background:transparent;color:var(--muted);border:none;border-radius:50px;padding:14px 28px;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:800;cursor:pointer;letter-spacing:.04em;transition:all .2s;display:flex;align-items:center;gap:8px">
-            2 Months <span style="background:#4CAF82;color:#fff;font-size:10px;padding:3px 9px;border-radius:8px;font-weight:800;flex-shrink:0">SAVE $100</span>
+            2 Months <span style="background:#2E9E6A;color:#fff;font-size:10px;padding:3px 9px;border-radius:8px;font-weight:800;flex-shrink:0">SAVE $100</span>
           </button>
           <button id="bill-3month" onclick="setBilling('3month')" style="background:transparent;color:var(--muted);border:none;border-radius:50px;padding:14px 28px;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:800;cursor:pointer;letter-spacing:.04em;transition:all .2s;display:flex;align-items:center;gap:8px">
-            3 Months <span style="background:var(--lime);color:var(--deep);font-size:10px;padding:3px 9px;border-radius:8px;font-weight:800;flex-shrink:0">SAVE $300</span>
+            3 Months <span style="background:#A8E030;color:#0F2208;font-size:10px;padding:3px 9px;border-radius:8px;font-weight:800;flex-shrink:0">SAVE $300</span>
           </button>
         </div>
       </div>
@@ -520,17 +520,17 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
             </div>
           </div>
           <div class="pill-grid authority-pills">
-            <div class="pill" style="background:#1A3A00;border:1px solid rgba(204,255,0,.35)">
-              <div class="pill-num" style="color:#CCFF00">12</div>
-              <div class="pill-label" style="color:rgba(204,255,0,.8)">Posts/wk</div>
+            <div class="pill" style="background:#1E3A0D;border:1px solid rgba(181,240,60,.35)">
+              <div class="pill-num" style="color:#B5F03C">12</div>
+              <div class="pill-label" style="color:rgba(181,240,60,.8)">Posts/wk</div>
             </div>
-            <div class="pill" style="background:#1A3A00;border:1px solid rgba(204,255,0,.35)">
-              <div class="pill-num" style="color:#CCFF00">6+6</div>
-              <div class="pill-label" style="color:rgba(204,255,0,.8)">Vid+Graphic</div>
+            <div class="pill" style="background:#1E3A0D;border:1px solid rgba(181,240,60,.35)">
+              <div class="pill-num" style="color:#B5F03C">6+6</div>
+              <div class="pill-label" style="color:rgba(181,240,60,.8)">Vid+Graphic</div>
             </div>
-            <div class="pill" style="background:#1A3A00;border:1px solid rgba(204,255,0,.35)">
-              <div class="pill-num" style="color:#CCFF00">10</div>
-              <div class="pill-label" style="color:rgba(204,255,0,.8)">Stories/wk</div>
+            <div class="pill" style="background:#1E3A0D;border:1px solid rgba(181,240,60,.35)">
+              <div class="pill-num" style="color:#B5F03C">10</div>
+              <div class="pill-label" style="color:rgba(181,240,60,.8)">Stories/wk</div>
             </div>
           </div>
           <div class="tier-body dark">
@@ -562,15 +562,15 @@ body{font-family:'DM Sans',sans-serif;background:var(--off);color:var(--deep);ov
             </div>
           </div>
           <div class="pill-grid category-pills">
-            <div class="pill" style="background:#2C1A00;border:1px solid rgba(224,155,32,.4)">
+            <div class="pill" style="background:#2A1C06;border:1px solid rgba(200,137,26,.4)">
               <div class="pill-num" style="color:#E09B20">18</div>
               <div class="pill-label" style="color:rgba(224,155,32,.9)">Posts/wk</div>
             </div>
-            <div class="pill" style="background:#2C1A00;border:1px solid rgba(224,155,32,.4)">
+            <div class="pill" style="background:#2A1C06;border:1px solid rgba(200,137,26,.4)">
               <div class="pill-num" style="color:#E09B20">10+8</div>
               <div class="pill-label" style="color:rgba(224,155,32,.9)">Vid+Graphic</div>
             </div>
-            <div class="pill" style="background:#2C1A00;border:1px solid rgba(224,155,32,.4)">
+            <div class="pill" style="background:#2A1C06;border:1px solid rgba(200,137,26,.4)">
               <div class="pill-num" style="color:#E09B20">Daily</div>
               <div class="pill-label" style="color:rgba(224,155,32,.9)">Stories</div>
             </div>
@@ -780,11 +780,11 @@ function setBilling(plan){
   btns.forEach(function(b){
     var el = document.getElementById('bill-'+b);
     if(b===plan){
-      el.style.background='var(--deep)';
-      el.style.color='var(--lime)';
+      el.style.background='#1A3608';
+      el.style.color='#B5F03C';
     } else {
       el.style.background='transparent';
-      el.style.color='var(--muted)';
+      el.style.color='#7A8B68';
     }
   });
 
@@ -838,11 +838,11 @@ function toggleObj(header){
 
 <!-- ── TERRITORY CLAIM OVERLAY ── -->
 <div id="claimOverlay" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.65);z-index:9000;align-items:center;justify-content:center;padding:20px">
-  <div style="background:var(--deep);border-radius:16px;max-width:520px;width:100%;border:1px solid rgba(204,255,0,.25);overflow:hidden;max-height:90vh;overflow-y:auto">
+  <div style="background:var(--deep);border-radius:16px;max-width:520px;width:100%;border:1px solid rgba(181,240,60,.25);overflow:hidden;max-height:90vh;overflow-y:auto">
 
     <!-- Header -->
-    <div style="background:linear-gradient(135deg,#0D1F00,#1A3A0A);padding:24px 24px 20px;border-bottom:1px solid rgba(204,255,0,.15)">
-      <div style="font-size:9px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:rgba(204,255,0,.5);margin-bottom:6px">Territory Claim</div>
+    <div style="background:linear-gradient(135deg,#0F2208,#1E3A0D);padding:24px 24px 20px;border-bottom:1px solid rgba(181,240,60,.15)">
+      <div style="font-size:9px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:rgba(181,240,60,.5);margin-bottom:6px">Territory Claim</div>
       <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--white);line-height:1">Lock in your niche.<br><span style="color:var(--lime)">Before someone else does.</span></div>
     </div>
 
@@ -889,7 +889,7 @@ function toggleObj(header){
 
       <div id="claim-error" style="display:none;font-size:11px;color:#FC8181;margin-bottom:12px;padding:10px 14px;background:rgba(252,129,129,.08);border-radius:8px;border:1px solid rgba(252,129,129,.2)">Please fill in your email and social handle before continuing.</div>
 
-      <button onclick="submitClaim()" style="width:100%;background:var(--lime);color:var(--deep);font-family:'DM Sans',sans-serif;font-size:14px;font-weight:800;padding:15px;border:none;border-radius:8px;cursor:pointer;letter-spacing:.04em;margin-bottom:10px">Get my claim message ↗</button>
+      <button onclick="submitClaim()" style="width:100%;background:#B5F03C;color:#0F2208;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:800;padding:15px;border:none;border-radius:8px;cursor:pointer;letter-spacing:.04em;margin-bottom:10px">Get my claim message ↗</button>
       <button onclick="closeClaimOverlay()" style="width:100%;background:transparent;color:rgba(255,255,255,.3);font-family:'DM Sans',sans-serif;font-size:12px;padding:10px;border:none;cursor:pointer">Cancel</button>
     </div>
   </div>
@@ -897,13 +897,13 @@ function toggleObj(header){
 
 <!-- ── DM POPUP ── -->
 <div id="dmPopup" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);z-index:9999;align-items:center;justify-content:center;padding:20px">
-  <div style="background:var(--deep);border-radius:16px;padding:26px;max-width:500px;width:100%;border:1px solid rgba(204,255,0,.25)">
+  <div style="background:var(--deep);border-radius:16px;padding:26px;max-width:500px;width:100%;border:1px solid rgba(181,240,60,.25)">
     <div style="font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--lime);margin-bottom:4px">Send this on Instagram DM</div>
     <div style="font-size:12px;color:var(--cardmuted);margin-bottom:16px;line-height:1.6">Copy the message below, then tap "Open Instagram DM" to paste it to us directly.</div>
     <div id="dmPopupMsg" style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:16px;font-size:12px;color:var(--white);line-height:1.8;white-space:pre-wrap;margin-bottom:16px"></div>
     <div style="display:flex;gap:10px;flex-wrap:wrap">
-      <button id="copyBtn" onclick="copyDmMsg()" style="flex:1;background:var(--lime);color:var(--deep);font-family:'DM Sans',sans-serif;font-size:13px;font-weight:800;padding:13px;border:none;border-radius:8px;cursor:pointer;letter-spacing:.04em">Copy message</button>
-      <button onclick="openIgDm()" style="flex:1;background:transparent;color:var(--lime);font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;padding:13px;border:1px solid rgba(204,255,0,.4);border-radius:8px;cursor:pointer;letter-spacing:.04em">Open Instagram DM ↗</button>
+      <button id="copyBtn" onclick="copyDmMsg()" style="flex:1;background:#B5F03C;color:#0F2208;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:800;padding:13px;border:none;border-radius:8px;cursor:pointer;letter-spacing:.04em">Copy message</button>
+      <button onclick="openIgDm()" style="flex:1;background:transparent;color:var(--lime);font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;padding:13px;border:1px solid rgba(181,240,60,.4);border-radius:8px;cursor:pointer;letter-spacing:.04em">Open Instagram DM ↗</button>
     </div>
     <button onclick="closeDmPopup()" style="width:100%;margin-top:10px;background:transparent;color:rgba(255,255,255,.25);font-family:'DM Sans',sans-serif;font-size:11px;padding:8px;border:none;cursor:pointer">Cancel</button>
   </div>
@@ -925,15 +925,15 @@ function toggleObj(header){
       </div>
       <div>
         <div style="display:flex;gap:14px;padding:14px 18px;border-bottom:1px solid var(--cardborder);align-items:flex-start">
-          <div style="width:24px;height:24px;border-radius:50%;background:var(--lime);display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:14px;color:var(--deep);flex-shrink:0">1</div>
+          <div style="width:24px;height:24px;border-radius:50%;background:#B5F03C;display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:14px;color:#0F2208;flex-shrink:0">1</div>
           <div><div style="font-size:12px;font-weight:700;color:var(--white);margin-bottom:2px">Team confirms your territory</div><div style="font-size:11px;color:var(--cardmuted)">We verify your niche + city is available and no other coach is running it.</div></div>
         </div>
         <div style="display:flex;gap:14px;padding:14px 18px;border-bottom:1px solid var(--cardborder);align-items:flex-start">
-          <div style="width:24px;height:24px;border-radius:50%;background:var(--lime);display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:14px;color:var(--deep);flex-shrink:0">2</div>
+          <div style="width:24px;height:24px;border-radius:50%;background:#B5F03C;display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:14px;color:#0F2208;flex-shrink:0">2</div>
           <div><div style="font-size:12px;font-weight:700;color:var(--white);margin-bottom:2px">Invoice sent to your email</div><div style="font-size:11px;color:var(--cardmuted)">Clean invoice with your tier, territory, deliverables, and terms in writing.</div></div>
         </div>
         <div style="display:flex;gap:14px;padding:14px 18px;border-bottom:1px solid var(--cardborder);align-items:flex-start">
-          <div style="width:24px;height:24px;border-radius:50%;background:var(--lime);display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:14px;color:var(--deep);flex-shrink:0">3</div>
+          <div style="width:24px;height:24px;border-radius:50%;background:#B5F03C;display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:14px;color:#0F2208;flex-shrink:0">3</div>
           <div><div style="font-size:12px;font-weight:700;color:var(--white);margin-bottom:2px">Payment received — content starts</div><div style="font-size:11px;color:var(--cardmuted)">The moment payment clears, your content build begins. First posts go live within the first week.</div></div>
         </div>
         <div style="display:flex;gap:14px;padding:14px 18px;align-items:flex-start">
@@ -943,7 +943,7 @@ function toggleObj(header){
       </div>
     </div>
 
-    <button onclick="closeConfirm()" style="width:100%;background:var(--off);color:var(--deep);font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;padding:14px;border:none;border-radius:8px;cursor:pointer;letter-spacing:.04em">← Back to the page</button>
+    <button onclick="closeConfirm()" style="width:100%;background:rgba(181,240,60,.12);color:#B5F03C;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;padding:14px;border:none;border-radius:8px;cursor:pointer;letter-spacing:.04em">← Back to the page</button>
   </div>
 </div>
 
